@@ -1,9 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>Test</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selamat Ulang Tahun</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin:0; padding:0; }
+body {
+  font-family:'Poppins',sans-serif;
+  background: linear-gradient(135deg, #0a1a33, #1b2f55, #cfd3da);
+  color:#f5f7fa; display:flex; justify-content:center; align-items:center;
+  min-height:100vh; overflow-x:hidden;
+}
+.card {
+  background: rgba(10,26,51,0.92);
+  border-radius:22px; padding:30px 26px 26px;
+  max-width:430px; width:92%; text-align:center;
+  box-shadow:0 25px 60px rgba(0,0,0,0.45);
+  border:1px solid rgba(207,211,218,0.35);
+  animation:fadeUp 1.2s ease;
+}
+@keyframes fadeUp {from{opacity:0; transform:translateY(20px);} to{opacity:1; transform:translateY(0);}}
+h1 { font-size:1.7rem; font-weight:500; margin-bottom:6px; letter-spacing:1px; color:#eef1f6;}
+.subtitle { font-size:0.85rem; color:#cfd3da; margin-bottom:14px;}
+.divider { width:60px; height:2px; background:linear-gradient(to right, transparent, #cfd3da, transparent); margin:14px auto 18px;}
+.message { font-size:0.9rem; line-height:1.7; color:#d7dbe3; max-height:260px; overflow-y:auto; padding-right:6px; text-align:left;}
+.gallery { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin:20px 0; }
+.gallery img { width:100%; height:70px; object-fit:cover; border-radius:10px; }
+video { width:100%; border-radius:14px; margin-top:10px; }
+.signature { margin-top:18px; font-size:0.85rem; color:#bfc5cf; }
+#tapPlay{
+  position:fixed; inset:0; background:rgba(10,26,51,.95);
+  display:flex; justify-content:center; align-items:center; z-index:9999; flex-direction:column;
+}
+.tap-box{
+  padding:18px 28px; border-radius:20px; border:1px solid rgba(255,255,255,.4);
+  color:#fff; font-size:1rem; font-weight:500; animation:pulse 1.5s infinite; text-align:center;
+}
+@keyframes pulse{0%{transform:scale(1)}50%{transform:scale(1.05)}100%{transform:scale(1)}}
+</style>
 </head>
 <body>
-  <h1>Halo, bisaa 🎉</h1>
+
+<!-- AUDIO -->
+<audio id="bgm" loop>
+  <source src="img/aboutyou.mp3" type="audio/mpeg">
+</audio>
+
+<!-- TAP TO START -->
+<div id="tapPlay">
+  <div class="tap-box">Klik Start untuk memulai 🎉</div>
+</div>
+
+<div class="card">
+<h1>Selamat Ulang Tahun, Kak Aldyth</h1>
+<div class="subtitle"> 28 January 
+ 
+ 
+  Semoga selalu dikelilingi hal baik</div>
+<div class="divider"></div>
+
+<div class="message">
+Semoga di umur baru ini kakak selalu sehat, langkahnya dimudahkan,
+dan hal-hal baik pelan-pelan datang.
+Jaga kesehatan ya, jangan keseringan minum es,
+dan hindari hal-hal yang bisa menyakitkan diri kakak sendiri.
+<br><br>
+Jangan kebanyakan begadang, kalau main ingat waktu dan batasan.
+Semoga di perjalanan hidup kakak selanjutnya,
+kakak dipertemukan dengan seseorang yang benar-benar sejalan.
+Jangan memberi harapan ke orang yang tidak kakak cintai,
+karena sembuh dari rasa itu butuh waktu yang panjang,
+apalagi perempuan yang penuh luka dan trauma di masa lalunya.
+<br><br>
+Aku cuma bisa ngasih ini untuk kakak.
+Untuk kado lainnya, itu dari mama.
+Semoga kakak suka.
+Di kehidupan lain kalau bisa terulang,
+aku mau kakak ketemu mama lebih dulu,
+karena mama sudah menganggap kakak seperti anak sendiri.
+<br><br>
+Kenangan dari aku dan mama cukup disimpan dan dikenang,
+jangan dibuang karena ga semua orang yang ada dikehidupanku
+dapatin effort dari mama seperti ini apapun hadiahnya simpan
+dengan baik ya kak .
+Terima kasih sudah pernah singgah,
+walaupun hanya sebentar.
+Dan semoga perempuan yang sedang kamu perjuangkan bisa kembali bersamamu ya, Kak.
+Biar hidupmu berwarna lagi.
+Jangan pernah menganggap dunia ini tidak adil atau tidak berpihak padamu, Kak,
+karena apa pun yang sudah ditakar, tidak akan pernah tertukar.
+<br><br>
+Tetap semangat ya, Kak Al.
+
+Maaf ya, Kak. Aku cewek yang mungkin terlihat alay, tapi jujur, aku masih belajar soal perasaanku. Aku selalu ingat bagaimana Kakak merespon yapping-ku dan menghargainya. Rasanya benar-benar didengar dan dihargai, hehe.
+
+Setelah ini, tenang ya, aku nggak akan mengusik atau mengode lagi di kehidupan Kakak. Semangat terus, Maba!
+<br><br>
+Oh iya, scrapbook yang aku kasih itu sebenarnya sudah aku buat dari aku mulai menceritakan tentang kamu ke Mama.
+Dan orang yang membantuku saat itu pun ikut merasa bahagia melihat senyum Mama—
+senyum seorang mama yang melihat anak gadisnya sedang berada di fase butterfly era.
+<br><br>
+Dari aku, segitu saja hehe.
+Maaf ya, Kak, kalau selama ini sikap atau perhatianku sempat membuatmu risih atau ilfeel.
+Jaga kesehatanmu baik-baik, dan jauhi rokok ya, Kak          
+
+salam buat bunny
+<br><br>
+See you again, stranger. Wish you all the best.
+</div>
+
+<div class="gallery">
+<img src="img/1.jpeg"><img src="img/2.jpeg"><img src="img/3.jpeg"><img src="img/4.jpeg">
+<img src="img/5.jpeg"><img src="img/6.jpeg"><img src="img/7.jpeg"><img src="img/8.jpeg">
+</div>
+
+<video controls>
+<source src="img/vidio.mp4" type="video/mp4">
+</video>
+
+<div class="signature">— Azyaa</div>
+</div>
+
+<!-- CONFETTI -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script>
+document.getElementById("tapPlay").addEventListener("click", ()=>{
+  const music = document.getElementById("bgm");
+  music.play();
+  document.getElementById("tapPlay").style.display = "none";
+
+  // Animasi confetti
+  const duration = 5000;
+  const end = Date.now() + duration;
+  (function frame(){
+    confetti({
+      particleCount: 8,
+      spread: 90,
+      origin:{y:0.6},
+      colors: ['#ff0','#f0f','#0ff','#fff']
+    });
+    if(Date.now() < end) requestAnimationFrame(frame);
+  })();
+});
+</script>
+
 </body>
 </html>
